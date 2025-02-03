@@ -989,6 +989,43 @@
         "ReentrancyGuard"
       ]
     },
+    "/home/brian/solythra-tokens/node_modules/@openzeppelin/contracts/utils/cryptography/ECDSA.sol": {
+      "lastModificationDate": 1738536638887,
+      "contentHash": "81de029d56aa803972be03c5d277cb6c",
+      "sourceName": "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
     "/home/brian/solythra-tokens/node_modules/@openzeppelin/contracts/utils/cryptography/EIP712.sol": {
       "lastModificationDate": 1738536638889,
       "contentHash": "8dbb261c55f358342798c4d1803d4f8e",
@@ -1028,43 +1065,6 @@
       ],
       "artifacts": [
         "EIP712"
-      ]
-    },
-    "/home/brian/solythra-tokens/node_modules/@openzeppelin/contracts/utils/cryptography/ECDSA.sol": {
-      "lastModificationDate": 1738536638887,
-      "contentHash": "81de029d56aa803972be03c5d277cb6c",
-      "sourceName": "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
-      "solcConfig": {
-        "version": "0.8.22",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 10000
-          },
-          "viaIR": true,
-          "evmVersion": "paris",
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "ECDSA"
       ]
     },
     "/home/brian/solythra-tokens/node_modules/@openzeppelin/contracts/interfaces/IERC5267.sol": {

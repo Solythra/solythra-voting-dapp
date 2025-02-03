@@ -1,2 +1,9 @@
+# Ignore environment variables (API keys)
 .env
+
+# Ignore local dependencies
+node_modules/
+
+# Ignore build files
+.next/
 
